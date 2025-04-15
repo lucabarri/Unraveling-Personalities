@@ -20,9 +20,6 @@
     -   [Personality Clusters](#personality-clusters)
     -   [Demographic Insights](#demographic-insights)
 -   [Visualizations](#visualizations)
--   [How to Use](#how-to-use)
--   [Dependencies](#dependencies)
--   [License](#license)
 -   [Conclusion](#conclusion)
 
 ---
@@ -60,10 +57,9 @@ The analysis leverages a dataset of over 40,000 participant responses to the 160
 -   **Exploratory Data Analysis (EDA):** Visualized distributions of age, country, and gender to understand the dataset demographics. (See Figures 1-3 in the report).
 
 *(Example EDA Figures from Report)*
-<!-- Replace with actual image links if desired -->
-![Age Distribution (Like Fig 1)](placeholder_link_to_age_hist.png)
-![Country Distribution (Like Fig 2)](placeholder_link_to_country_hist.png)
-![Gender Distribution (Like Fig 3)](placeholder_link_to_gender_hist.png)
+![Age Distribution (Like Fig 1)](images/ages_h.png)
+![Country Distribution (Like Fig 2)](images/country_h.png)
+![Gender Distribution (Like Fig 3)](images/gender_h.png)
 
 ### Principal Component Analysis (PCA)
 
@@ -73,20 +69,18 @@ The analysis leverages a dataset of over 40,000 participant responses to the 160
 -   **Interpretation:** Analyzed the statements with the highest loadings (positive or negative) for each component to understand the underlying personality facet it represents.
 
 *(Example PCA Variance Plot from Report)*
-<!-- Replace with actual image link if desired -->
-![Cumulative Explained Variance (Like Fig 4)](placeholder_link_to_cev_plot.png)
+![Cumulative Explained Variance (Like Fig 4)](images/cev.png)
 
 ### Clustering (K-Means & GMM)
 
 -   **Goal:** Group participants with similar response patterns (personalities).
 -   **Methods Compared:**
     -   **K-Means:** Chosen as the primary method due to its tendency to create distinct, non-overlapping clusters suitable for defining personality archetypes. **K=5** clusters were selected.
-    -   **Gaussian Mixture Model (GMM):** Explored as an alternative, assuming normally distributed personality traits within clusters. Resulted in more overlapping clusters.
+    -   **Gaussian Mixture Model (GMM):** Explored as an alternative, assuming normally distributed personality traits within clusters. Resulting in more overlapping clusters.
 -   **Visualization:** Projected clustered data onto the first two principal components for visualization. (See Figures 5-10 in the report).
 
 *(Example K-Means Plot from Report)*
-<!-- Replace with actual image link if desired -->
-![K-Means Clusters (Like Fig 5)](placeholder_link_to_kmeans_scatter.png)
+![K-Means Clusters (Like Fig 5)](images/kmeans.png)
 
 ### Personality Classification
 
@@ -95,8 +89,7 @@ The analysis leverages a dataset of over 40,000 participant responses to the 160
 -   **Outcome:** Defined 5 distinct personality archetypes based on these profiles.
 
 *(Example Radar Chart from Report)*
-<!-- Replace with actual image link if desired -->
-![Cluster Centroid Radar Chart (Like Fig 11)](placeholder_link_to_radar_chart.png)
+![Cluster Centroid Radar Chart (Like Fig 11)](images/radar.png)
 
 ---
 
@@ -132,9 +125,8 @@ Preliminary analysis suggests differences in personality type distribution:
 -   **Response Time:** Fast responders (<6 min) were less likely to be 'Sociable Leaders', while slow responders (>40 min) showed tendencies towards 'Disciplined Scholar' (see Figures 14, 15).
 
 *(Example Distribution Plots from Report)*
-<!-- Replace with actual image links if desired -->
-![Personality per Gender (Like Fig 13)](placeholder_link_to_gender_dist.png)
-![Personality by Response Time (Like Fig 14/15)](placeholder_link_to_time_dist.png)
+![Personality per Gender (Like Fig 13)](images/3_h.png)
+![Personality by Response Time (Like Fig 14/15)](images/fast.png)
 
 ---
 
