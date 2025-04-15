@@ -1,8 +1,10 @@
 # Unraveling Personalities: A Data-Driven Exploration Using 16PF Questionnaire Responses
-
 **Author:** Luca Barriviera
 
 > Analyzes 16PF personality data (40k+ responses). Uses PCA for question reduction & K-Means clustering to identify 5 personality types. Explores gender distribution.
+
+![Personalities](images/dimmis-vart-qui1Ni2Avk8-unsplash.jpg)
+
 
 ---
 
